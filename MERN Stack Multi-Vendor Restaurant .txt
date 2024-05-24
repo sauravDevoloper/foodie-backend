@@ -1,0 +1,56 @@
+                                    MERN Stack Multi-Vendor Restaurant Application Documentation
+
+Dependencies
+
+·         express
+
+·         mongoose
+
+·         dotenv
+
+·         body-parser
+
+·         nodemon
+
+·         jsonwebtoken (JW Token)
+
+·         bcryptjs
+
+·         multer
+
+·         cors
+
+Connection to Database
+
+API Creation
+
+                Models
+
+                                Vendor:
+
+Properties:  username, email, password
+
+                                Firm:
+
+Properties:   firmName, area, category, region, offer , image
+
+                                Product:
+
+Properties:   productName, price, category, image, bestseller, description
+
+                Controllers
+
+                                vendorController
+
+                                firmController
+
+                                productController
+
+                Routes  
+
+                                vendorRoutes
+
+                                firmRoutes
+
+                                productRoutes
+
