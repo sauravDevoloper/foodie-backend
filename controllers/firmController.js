@@ -54,7 +54,7 @@ const deleteFirmById = async(req, res) => {
     try {
         const firmId = req.params.firmId;
 
-        const deletedProduct = await Firm.findByIdAndDelete(firmId);
+        const deletedProduct = await firmModel.findByIdAndDelete(firmId);
 
         if (!deletedProduct) {
             return res.status(404).json({ error: "No product found" })
